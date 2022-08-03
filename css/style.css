@@ -203,6 +203,7 @@ h2{
 }
 .p4 > h3{
   font-size: 83px;
+  color: #000000;
 }
 .p4 > p > span{
   font-size: 32px;
@@ -231,7 +232,7 @@ h2{
 .p5 > h5{
   position: absolute;
   left: 60px;
-  top: 450px;
+  top: 550px;
   font-size: 75px;
   font-weight: 500;
 }
