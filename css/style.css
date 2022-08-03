@@ -9,6 +9,12 @@
 main{
   width: 1300px;
 }
+h2{
+  margin-bottom: 60px;
+  color: #000000;
+  text-align: left;
+  font-weight: 900;
+}
 /* 1page */
 .p1{
   position: relative;
@@ -99,7 +105,7 @@ main{
 .p2-c2-bg{
   position: relative;
   background-image: url(../imgs/p2-02.png);
-  background-position: left bottom;
+  background-position: left top;
   background-repeat: no-repeat;
 }
 .p2-info2{
@@ -118,7 +124,7 @@ main{
 .p2-c3-bg{
   position: relative;
   background-image: url(../imgs/p2-03.png);
-  background-position: right bottom;
+  background-position: right top;
   background-repeat: no-repeat;
 }
 .p2-info3{
