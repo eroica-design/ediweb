@@ -21,10 +21,8 @@ h2{
   font-weight: 900;
 }
 section{
-  display: inline-block;
   margin-top: 100px;
   margin-bottom: 200px;
-  width: 100%;
 }
 /* 1page */
 .p1{
@@ -79,10 +77,9 @@ section{
   position: absolute;
   bottom: 0;
   left: 890px;
-}
-.p1-img3 > img{
   width: 360px;
 }
+
 /* 2page */
 .p2{
   padding: 60px;
@@ -94,8 +91,6 @@ section{
 }
 .p2-c1-bg{
   position: relative;
-  left: 0;
-  top: 0;
   background-image: url(../imgs/p2-01.png);
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -109,10 +104,9 @@ section{
 .p2-info1 > h3{
   font-size: 17px;
 }
-.p2-info1 > h3> span{
+.p2-info1 > h3 > span{
   color: #FD574C;
 }
-
 .p2-c2-bg{
   position: relative;
   background-image: url(../imgs/p2-02.png);
@@ -131,7 +125,6 @@ section{
 .p2-info2 > h3 > span{
   color: #9F38AB;
 }
-
 .p2-c3-bg{
   position: relative;
   background-image: url(../imgs/p2-03.png);
@@ -150,7 +143,6 @@ section{
 .p2-info3 > h3 > span{
   color: #3469EB;
 }
-
 .p2-c4-bg{
   position: relative;
   background-image: url(../imgs/p2-04.png);
@@ -188,14 +180,14 @@ section{
   line-height: 38px;
   width: 661px;
 }
+.p3-info > p > span{
+  font-size: 25px;
+  color: #910BB1;
+}
 .p3-info > h5{
   font-size: 33px;
   margin-top: 40px;
 }
-.p3-info > p > span{
-  font-size: 25px;
-  color: #910BB1;
-} 
 .p3-img{
   float: right;
 }
